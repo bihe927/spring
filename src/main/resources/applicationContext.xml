@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    注解自动扫描-->
+    <context:component-scan base-package="com.abc"/>
+
+<!--    &lt;!&ndash;Spring IOC 控制反转&ndash;&gt;-->
+<!--    <bean id="huawei" class="com.abc.ssm.spring.Phone">-->
+<!--        <property name="brand" value="HUAWEI"/>-->
+<!--        <property name="price" value="3999"/>-->
+<!--    </bean>-->
+<!--    <bean id="person" class="com.abc.ssm.spring.Person">-->
+<!--&lt;!&ndash;        属性注入&ndash;&gt;-->
+<!--        <property name="pid" value="1001"/>-->
+<!--        <property name="pname" value="Tom"/>-->
+<!--&lt;!&ndash;依赖注入&ndash;&gt;-->
+<!--        <property name="phone" ref="huawei"/>-->
+<!--    </bean>-->
+</beans>
